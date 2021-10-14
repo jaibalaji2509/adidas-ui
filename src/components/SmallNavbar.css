@@ -1,0 +1,70 @@
+@import url(//db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+@font-face {
+  font-family: "AdihausDIN";
+  src: url("//db.onlinewebfonts.com/t/c0cd6ec8ce6d2bbd315a13b62ed13550.eot");
+  src: url("//db.onlinewebfonts.com/t/c0cd6ec8ce6d2bbd315a13b62ed13550.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c0cd6ec8ce6d2bbd315a13b62ed13550.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/c0cd6ec8ce6d2bbd315a13b62ed13550.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/c0cd6ec8ce6d2bbd315a13b62ed13550.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/c0cd6ec8ce6d2bbd315a13b62ed13550.svg#AdihausDIN")
+      format("svg");
+}
+.dfr {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.fr {
+  flex-direction: row !important;
+}
+
+.dfc {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.fc {
+  flex-direction: column !important;
+}
+
+.bc-black {
+  background-color: black;
+}
+
+.c-white {
+  color: #ffffff;
+}
+
+.sb-fonts {
+  padding: 5px 10px;
+  font-size: 11px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-seri;
+  line-height: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mr-9 {
+  margin-right: 130px !important;
+  margin-left: 120px !important;
+}
+
+.icn1 {
+  width: 19px;
+  height: 19px;
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}

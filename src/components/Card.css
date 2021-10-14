@@ -1,0 +1,53 @@
+.car-w {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #e8ecef;
+}
+
+.car-w:hover {
+  border-color: #000000;
+}
+.img-card {
+  width: 100%;
+  height: 100%;
+}
+.fav-card {
+  margin-top: -574px;
+  margin-left: 255px;
+  position: relative;
+  z-index: 100;
+  color: #000000;
+  width: 20px;
+  height: 20px;
+}
+
+.no-p-m {
+  padding: 0;
+  margin: 0;
+}
+.pric-card {
+  margin-top: -45px;
+  margin-left: 8px;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  background-color: #e8ecef;
+}
+
+.car-w:hover .pric-card {
+  transform: translateY(-5px);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.prod-name {
+  font-size: 14px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  color: #000000;
+  line-height: 20px;
+  font-weight: 400;
+}
+

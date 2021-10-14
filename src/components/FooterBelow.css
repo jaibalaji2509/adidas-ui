@@ -1,0 +1,16 @@
+.fb-link {
+  color: #5e5e5e;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  word-spacing: 0px;
+  vertical-align: baseline;
+}
+.fb-link:hover {
+  border-bottom: 1px solid #5e5e5e;
+  color: #5e5e5e;
+}

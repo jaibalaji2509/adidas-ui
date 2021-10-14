@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Banner from "./components/Banner";
+import BestADIDAS from "./components/BestADIDAS";
+import Disclaimer from "./components/Disclaimer";
+import Footer from "./components/Footer";
+import FooterBelow from "./components/FooterBelow";
+import MainNavbar from "./components/MainNavbar";
+import Offer from "./components/Offer";
+import Popular from "./components/Popular";
+import SmallNavbar from "./components/SmallNavbar";
+import StillInterested from "./components/StillInterested";
+import VideoBrand from "./components/VideoBrand";
+import WhatHot from "./components/WhatHot";
+import WhoYouShoppingFor from "./components/WhoYouShoppingFor";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <SmallNavbar />
+      <MainNavbar />
+      <Banner />
+      <Popular />
+      <VideoBrand />
+      <StillInterested />
+      <WhoYouShoppingFor />
+      <WhatHot />
+      <BestADIDAS />
+      <Disclaimer />
+      <Offer />
+      <FooterBelow />
+      <Footer />
     </div>
   );
 }

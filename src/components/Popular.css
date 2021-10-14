@@ -1,0 +1,55 @@
+.dfr {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.fr {
+  flex-direction: row !important;
+}
+
+.dfc {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.fc {
+  flex-direction: column !important;
+}
+
+.title {
+  font-size: 42px;
+  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+  line-height: 38px;
+  font-weight: 600;
+  color: #000000;
+}
+.sp-popular {
+  padding-top: 220px;
+  padding-bottom: 60px;
+}
+
+.p-title {
+  font-size: 30px;
+  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+  line-height: 38px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.btn-popular {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #d6d6d8;
+  cursor: pointer;
+  font-size: 14px !important;
+  font-weight: bold;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+.btn-popular:hover {
+  border: 1px solid #000000;
+}
+
+.al-c {
+  align-items: center;
+  justify-content: center;
+}

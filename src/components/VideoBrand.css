@@ -1,0 +1,28 @@
+.vb-title {
+  font-size: 42px;
+  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+  line-height: 38px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner {
+  background-color: #edede1;
+}
+.dfr {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.fr {
+  flex-direction: row !important;
+}
+
+.dfc {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.fc {
+  flex-direction: column !important;
+}
